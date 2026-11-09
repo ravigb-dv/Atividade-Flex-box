@@ -1,78 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove margens de todos os elementos */
+    padding: 0; /* Remove espaçamento interno de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #5401fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte padrão */
+    background-color: #5401fc; /* Cor de fundo roxa */
+    display: flex; /* Ativa o Flexbox no container */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    align-items: center; /* Centraliza itens verticalmente */
+    height: 100vh; /* Define altura total da viewport */
 }
 
 .container-card {
-    background-color: #1E1747;
-    padding: 100px;
-    border-radius: 12px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.397);
-    text-align: center;
+    background-color: #1E1747; /* Cor de fundo roxa escura */
+    padding: 100px; /* Espaçamento interno */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.397); /* Sombra externa */
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
 .header-card {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Espaçamento abaixo do elemento */
 
     img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
+        width: 100px; /* Largura da imagem */
+        height: 100px; /* Altura da imagem */
+        border-radius: 50px; /* Transforma a imagem em círculo */
     }
 }
 
 .card-text {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; /* Espaçamento abaixo do elemento */
+
     h2 {
-        font-size: 36px;
-        margin-bottom: 10px;
-        color: #C6FF34;
+        font-size: 36px; /* Tamanho da fonte do título */
+        margin-bottom: 10px; /* Espaçamento abaixo do título */
+        color: #C6FF34; /* Cor verde-limão */
     }
-    
+
     p {
-        font-size: 18px;
-        color: #C6FF34;
+        font-size: 18px; /* Tamanho da fonte do parágrafo */
+        color: #C6FF34; /* Cor verde-limão */
     }
 }
 
 .buttons-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin-top: 32px;
-    
+    display: flex; /* Ativa o Flexbox no container */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    align-items: center; /* Centraliza itens verticalmente */
+    gap: 24px; /* Espaço entre os itens filhos */
+    margin-top: 32px; /* Espaçamento acima do elemento */
+
     a {
-        text-decoration: none;
-        color: #A5D428;
-        border: 2px solid #A5D428;
-        border-radius: 8px;
-        padding: 4px 16px;
+        text-decoration: none; /* Remove sublinhado do link */
+        color: #A5D428; /* Cor verde-oliva do texto */
+        border: 2px solid #A5D428; /* Borda sólida verde-oliva */
+        border-radius: 8px; /* Bordas arredondadas */
+        padding: 4px 16px; /* Espaçamento interno */
     }
 }
 
 .footer-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    background-color: #3B19AC;
-    padding: 12px;
-    border-radius: 8px;
+    display: flex; /* Ativa o Flexbox no container */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    align-items: center; /* Centraliza itens verticalmente */
+    margin-top: 50px; /* Espaçamento acima do elemento */
+    background-color: #3B19AC; /* Cor de fundo roxa mais clara */
+    padding: 12px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
 
     a {
-        color: #C6FF34;
-        text-decoration: none;
+        color: #C6FF34; /* Cor verde-limão do texto */
+        text-decoration: none; /* Remove sublinhado do link */
     }
 }
